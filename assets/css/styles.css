@@ -2,6 +2,21 @@ body {
     background-color: purple;
 }
 
+.logoWhite {
+    width: 25%;
+    margin-bottom: 8em;
+    margin-top: 1em;
+}
+
+.logoColor {
+    width: 50%;
+    margin-bottom: 8em;
+}
+
+.footButtons {
+    text-align: center;
+}
+
 .dropdown-toggle img {
     width: 40%;
 }
