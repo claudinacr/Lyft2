@@ -1,0 +1,15 @@
+/* Extra Small */
+
+@media(max-width:767px) {
+    #splash img {
+        width: 60vh;
+    }
+    #finalscreen img {
+        width: 50vh;
+    }
+}
+
+
+/* Medium */
+
+@media(min-width: 768px) {}

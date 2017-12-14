@@ -1,81 +1,62 @@
-.navbar {
-    background-color: #ef9a9a !important;
+body {
+    background-color: purple;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    background-color: #00A54F !important;
-    margin-top: 0.3em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
+.dropdown-toggle img {
+    width: 40%;
 }
 
-.navbar-default .navbar-nav>li>a {
-    background-color: #00A54F !important;
-    margin-top: 0.3em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-    margin-left: 1em;
+.dropdown-menu img {
+    width: 20%;
+}
+
+.signupForm {
+    display: none;
+}
+
+.codigotexto {
+    display: none;
+    background-color: #b6b6b6;
+}
+
+.verifyform {
+    display: none;
+}
+
+.signupform2 {
+    display: none;
+}
+
+#finalscreen {
+    display: none;
+}
+
+#btn-next {
+    background-color: #DF0088;
     color: black;
 }
 
-.navbar-default .navbar-nav>li>a {
-    color: white !important;
+#btn-next:disabled {
+    background-color: #b6b6b6;
+    color: gray;
 }
 
-li p {
-    margin-top: 1em;
-    margin-left: 1em;
-    color: white;
+#btn-nextver {
+    background-color: #DF0088;
+    color: black;
 }
 
-.navbar-default .navbar-brand {
-    color: white !important;
+#btn-nextver:disabled {
+    background-color: #b6b6b6;
+    color: gray;
 }
 
-.spaceForm {
-    padding-top: 3em;
-    padding-bottom: 3em;
+#btn-nextsign {
+    background-color: #DF0088;
+    color: black;
 }
 
-input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    font-size: 20em;
-}
-
-.spaceForm .fa-user-circle-o {
-    font-size: 1.5em;
-}
-
-.spaceForm .fa-phone {
-    font-size: 1.5em;
-}
-
-.modal-body {
-    margin-left: 5em;
-}
-
-button {
-    background-color: #EEEEEE;
-}
-
-.boxContainer {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.boxContainer div {
-    padding: 1em 0.5em;
-    margin-bottom: 2em;
-    outline: 0.1em solid #E5E3F2;
-    background-color: #FFF;
-    border-bottom: 0.5em gray solid;
+#btn-nextsign:disabled {
+    background-color: #b6b6b6;
+    color: gray;
 }
